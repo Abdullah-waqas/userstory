@@ -1,0 +1,24 @@
+{
+  "name": "userstory",
+  "version": "1.0.0",
+  "description": "This is user story app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "dev.Waqas",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.8.6",
+    "morgan": "^1.8.1",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "underscore": "^1.8.3"
+  }
+}
